@@ -13,10 +13,10 @@
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 587;
     $mail->SMTPSecure = 'tls';
-    $mail->Username = 'maddegamingresmi@gmail.com';
-    $mail->Password = 'taehyungvbambam123';
-    $mail->SetFrom('maddegamingresmi@gmail.com', 'Madde Gaming | Oyuncu Destek Ekibi');
-	$mail->AddReplyTo('maddegamingresmi@gmail.com', 'Madde Gaming | Oyuncu Destek Ekibi');
+    $mail->Username = 'MAIL_GIRILECEK';
+    $mail->Password = 'SIFRE_GIRILECEK';
+    $mail->SetFrom('MAIL_GIRILECEK', 'Madde Gaming | Oyuncu Destek Ekibi');
+	$mail->AddReplyTo('MAIL_GIRILECEK', 'Madde Gaming | Oyuncu Destek Ekibi');
 	$mail->CharSet = 'UTF-8';
 	
     $mail->Subject = 'Madde Gaming';
